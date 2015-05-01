@@ -1,0 +1,105 @@
+<ion-view view-title="Ghea Guest Books">
+  <ion-content>
+    <form ng-submit="doRegister()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Names</span>
+          <input type="text" ng-model="registerData.names">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Phone</span>
+          <input type="text" ng-model="registerData.phone">
+        </label>        
+        <label class="item item-input">
+          <span class="input-label">Vehicle Reg</span>
+          <input type="text" ng-model="registerData.vehicle_reg">
+        </label>                
+        <label class="item item-input">
+          <span class="input-label">Visiting</span>
+          <input type="text" ng-model="registerData.visiting">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Date</span>
+          <input type="date" ng-model="registerData.date">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Time</span>
+          <input type="time" ng-model="registerData.time">
+        </label>        
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Submit</button>
+        </label>
+      </div>
+    </form>    
+	<ion-list>    
+		<div class="list card">
+			<a href="#" class="item">
+				<b>Name: Raymond Nkosi</b>
+			</a>
+			<a href="#" class="item">
+				Phone: 071 472 6011
+			</a>
+			<a href="#" class="item">
+				Vehicle Reg: TYK772GP
+			</a>
+			<a href="#" class="item">
+				Visiting: Tshepiso Ndabe
+			</a>
+			<a href="#" class="item">
+				Date Time: 16/04/2015 13:00
+			</a>			
+		</div>
+		<div class="list card">
+			<a href="#" class="item">
+				<b>Name: Chris Smith</b>
+			</a>
+			<a href="#" class="item">
+				Phone: 081 492 6211
+			</a>
+			<a href="#" class="item">
+				Vehicle Reg: CYD113GP
+			</a>
+			<a href="#" class="item">
+				Visiting: William James
+			</a>
+			<a href="#" class="item">
+				Date Time: 18/04/2015 13:00
+			</a>			
+		</div>
+		<div class="list card">
+			<a href="#" class="item">
+				<b>Name: JP Morgan</b>
+			</a>
+			<a href="#" class="item">
+				Phone: 061 433 3031
+			</a>
+			<a href="#" class="item">
+				Vehicle Reg: TTD663GP
+			</a>
+			<a href="#" class="item">
+				Visiting: Davidson Rockerfella
+			</a>
+			<a href="#" class="item">
+				Date Time: 18/04/2015 09:00
+			</a>			
+		</div>
+		<div class="list card">
+			<a href="#" class="item">
+				<b>Name: Adam Stein</b>
+			</a>
+			<a href="#" class="item">
+				Phone: 071 172 3727
+			</a>
+			<a href="#" class="item">
+				Vehicle Reg: KCD443GP
+			</a>
+			<a href="#" class="item">
+				Visiting: Sofia Stein
+			</a>
+			<a href="#" class="item">
+				Date Time: 17/04/2015 18:30
+			</a>			
+		</div>
+    </ion-list>
+  </ion-content>
+</ion-view>

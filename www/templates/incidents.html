@@ -1,0 +1,81 @@
+<ion-view view-title="Ghea Incidents">
+  <ion-content>
+    <form ng-submit="doRegister()">
+      <div class="list">
+        <label class="item item-input">
+          <span class="input-label">Description</span>
+          <input type="text" ng-model="registerData.firstname">
+        </label>
+        <label class="item item-input">
+          <span class="input-label">Time</span>
+          <input type="text" ng-model="registerData.lastname">
+        </label>        
+        <label class="item item-input">
+          <span class="input-label">Location</span>
+          <input type="text" ng-model="registerData.phone">
+        </label>                
+        <label class="item item-input">
+          <span class="input-label">Image</span>
+          <input type="file" ng-model="registerData.username">
+        </label>
+        <label class="item">
+          <button class="button button-block button-positive" type="submit">Upload</button>
+        </label>
+      </div>
+    </form>  
+    <ion-list>
+      <div class="list card">
+        <div class="item">
+          <h2>Date: 18/04/2015</h2>
+          <p>Time: 17:30</p>
+        </div>
+        <div class="item item-image">
+          <img src="img/incidents/incident1.jpg">
+        </div>
+        <div class="item">
+          <h2>Location: Office Block B</h2>
+          <p>Description: Broken Glass Door at room 301</p>
+        </div>
+      </div>
+      <div class="list card">
+        <div class="item">
+          <h2>Date: 16/04/2015</h2>
+          <p>Time: 12:30</p>
+        </div>
+        <div class="item item-image">
+          <img src="img/incidents/incident2.jpg">
+        </div>
+        <div class="item">
+          <h2>Location: Office Block C</h2>
+          <p>Description: Broken Door at room 216</p>
+        </div>
+      </div>
+      <div class="list card">
+        <div class="item">
+          <h2>Date: 12/04/2015</h2>
+          <p>Time: 23:30</p>
+        </div>
+        <div class="item item-image">
+          <img src="img/incidents/incident3.jpg">
+        </div>
+        <div class="item">
+          <h2>Location: Parking Lot B1</h2>
+          <p>Description: Broken Glass Door off room 301</p>
+        </div>
+      </div>
+      <div class="list card">
+        <div class="item">
+          <h2>Date: 06/04/2015</h2>
+          <p>Time: 05:45</p>
+        </div>
+        <div class="item item-image">
+          <img src="img/incidents/incident4.jpg">
+        </div>
+        <div class="item">
+          <h2>Location: Office Block A</h2>
+          <p>Description: Broken glass window at room 216</p>
+        </div>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>

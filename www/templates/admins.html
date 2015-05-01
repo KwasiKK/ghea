@@ -1,0 +1,9 @@
+<ion-view view-title="Admin Users">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="admin in admins" href="#/app/admins/{{admin.id}}">
+        {{admin.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
